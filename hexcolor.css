@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh; /*Min height of the window*/
+  display: flex;
+  justify-content: center;/*Places content in the center horizontally*/
+  align-items: center;/*Vertically places the content in the center*/
+}
+
+.colorBtn {
+  padding: 0.25rem 0.5rem;
+  border: 3px solid #fefefe;
+  border-radius: 7px;
+  color: #fefefe; /*Color of the text*/
+  background: rgba(0, 0, 0, 0.6); /*color of the background of the button */
+  font-size: 1.5rem; /*Size of your writing*/
+  text-transform: capitalize; /*Makes your work all caps */
+  cursor: pointer;
+  outline: none;
+
+}
+
+/*What happens when the pointer hovers over the button??*/
+.colorBtn:hover{
+    background: rgb(0,0,0);
+}
